@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         
         button.layer.cornerRadius = 17
         
+        redView.alpha = 0.3
+        yellowView.alpha = 0.3
+        greenView.alpha = 0.3
+        
         redView.layer.cornerRadius = redView.frame.size.width / 2
         yellowView.layer.cornerRadius = yellowView.frame.size.width / 2
         
